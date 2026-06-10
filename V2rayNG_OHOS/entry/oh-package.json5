@@ -1,0 +1,8 @@
+{
+  "name": "entry",
+  "version": "2.2.3",
+  "description": "V2RayNG entry module",
+  "dependencies": {
+    "libv2ray_bridge.so": "file:./src/main/cpp/types/libv2ray_bridge"
+  }
+}

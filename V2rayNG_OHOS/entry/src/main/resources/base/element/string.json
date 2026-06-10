@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "V2RayNG"
+    },
+    {
+      "name": "module_desc",
+      "value": "V2RayNG for HarmonyOS"
+    },
+    {
+      "name": "app_tile_first_use",
+      "value": "Please select a server first"
+    },
+    {
+      "name": "toast_services_start",
+      "value": "Starting service..."
+    },
+    {
+      "name": "toast_services_stop",
+      "value": "Stopping service..."
+    },
+    {
+      "name": "toast_config_file_invalid",
+      "value": "Invalid configuration file"
+    },
+    {
+      "name": "toast_allow_insecure_deprecated",
+      "value": "Allow Insecure is deprecated"
+    },
+    {
+      "name": "toast_warning_pref_proxysharing_short",
+      "value": "Proxy sharing enabled"
+    },
+    {
+      "name": "connection_test_available",
+      "value": "Delay: %d ms"
+    },
+    {
+      "name": "connection_test_error",
+      "value": "Error: %s"
+    }
+  ]
+}

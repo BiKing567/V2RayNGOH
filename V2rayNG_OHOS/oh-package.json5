@@ -1,0 +1,7 @@
+{
+  "modelVersion": "6.1.1",
+  "name": "com.v2ray.ang.harmony",
+  "version": "2.2.3",
+  "description": "V2RayNG for HarmonyOS - A V2Ray/Xray client",
+  "dependencies": {}
+}

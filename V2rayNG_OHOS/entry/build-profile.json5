@@ -1,0 +1,24 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "arkOptions": {
+      "runtimeOnly": {
+        "packages": [
+          "libv2ray_bridge.so"
+        ]
+      }
+    },
+    "externalNativeOptions": {
+      "path": "./src/main/cpp/CMakeLists.txt",
+      "cppFlags": "-O2 -std=c++17 -fvisibility=hidden"
+    },
+    "nativeLib": {
+      "collectAllLibs": true
+    }
+  },
+  "targets": [
+    {
+      "name": "default"
+    }
+  ]
+}

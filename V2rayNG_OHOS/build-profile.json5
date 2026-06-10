@@ -1,0 +1,42 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "/Users/manfred/.ohos/config/openharmony/default_V2rayNG_OHOS_c9OR-ifMp9XFty4JBMODqxfmAgbXpznjxzUjp3LgOG0=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B09ECCFC63DB1A865D11B72D55296D6C3F73C88902D3D6CAD1C52DD6744DB38EAD0E093AB31D47E",
+          "profile": "/Users/manfred/.ohos/config/openharmony/default_V2rayNG_OHOS_c9OR-ifMp9XFty4JBMODqxfmAgbXpznjxzUjp3LgOG0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/manfred/.ohos/config/openharmony/default_V2rayNG_OHOS_c9OR-ifMp9XFty4JBMODqxfmAgbXpznjxzUjp3LgOG0=.p12",
+          "storePassword": "0000001B37102AFF4D9F8DFA244CB2A8E6B0E1186278F0550E35FDB870B6A3A8D3B5FEA0BC5D3F1B212653"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 24,
+        "compatibleSdkVersion": 24,
+        "runtimeOS": "OpenHarmony",
+        "targetSdkVersion": 24
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

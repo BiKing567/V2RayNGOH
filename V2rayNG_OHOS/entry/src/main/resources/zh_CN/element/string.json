@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "V2RayNG"
+    },
+    {
+      "name": "app_tile_first_use",
+      "value": "请先选择服务器"
+    },
+    {
+      "name": "toast_services_start",
+      "value": "启动服务中..."
+    },
+    {
+      "name": "toast_services_stop",
+      "value": "停止服务中..."
+    },
+    {
+      "name": "toast_config_file_invalid",
+      "value": "无效的配置文件"
+    },
+    {
+      "name": "connection_test_available",
+      "value": "延迟: %d ms"
+    },
+    {
+      "name": "connection_test_error",
+      "value": "错误: %s"
+    },
+    {
+      "name": "toast_allow_insecure_deprecated",
+      "value": "Allow Insecure 已弃用"
+    },
+    {
+      "name": "toast_warning_pref_proxysharing_short",
+      "value": "代理共享已启用"
+    }
+  ]
+}

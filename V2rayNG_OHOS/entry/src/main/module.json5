@@ -1,0 +1,55 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "V2RayNG for HarmonyOS",
+    "srcEntry": "./ets/Application/MyAbilityStage.ts",
+    "mainElement": "MainAbility",
+    "deviceTypes": ["default", "tablet"],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "MainAbility",
+        "srcEntry": "./ets/MainAbility/MainAbility.ts",
+        "description": "V2RayNG Main UI",
+        "icon": "$media:app_icon",
+        "label": "$string:app_name",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:white",
+        "exported": true,
+        "skills": [
+          {
+            "actions": ["action.system.home"],
+            "entities": ["entity.system.home"]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "VpnServiceAbility",
+        "srcEntry": "./ets/services/VpnService.ts",
+        "description": "V2Ray VPN Service",
+        "icon": "$media:app_icon",
+        "label": "$string:app_name",
+        "type": "vpn",
+        "exported": false
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      }
+    ],
+    "compressNativeLibs": false,
+    "extractNativeLibs": true
+  }
+}

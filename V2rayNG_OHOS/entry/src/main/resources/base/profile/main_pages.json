@@ -1,0 +1,16 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ServerEdit",
+    "pages/ServerCustomConfig",
+    "pages/Settings",
+    "pages/Subscription",
+    "pages/SubscriptionEdit",
+    "pages/Routing",
+    "pages/RoutingEdit",
+    "pages/Logcat",
+    "pages/About",
+    "pages/Backup",
+    "pages/PerAppProxy"
+  ]
+}
